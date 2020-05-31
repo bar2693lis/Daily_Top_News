@@ -24,3 +24,7 @@ Features
 • Material design
 
 • Prettytime for Convert Java Date() objects in just “a few minutes!”
+
+• Use OpenWeatherMap API
+
+• Use locale Database
