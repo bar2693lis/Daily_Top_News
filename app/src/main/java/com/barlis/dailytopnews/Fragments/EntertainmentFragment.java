@@ -29,7 +29,7 @@ public class EntertainmentFragment extends Fragment
 {
     private RecyclerView recyclerView;
     private SwipeRefreshLayout swipeRefreshLayout;
-    private final String API_KEY = "e3aceff21d6945669fd38333f98dd51b";
+    private final String API_KEY = "YOUR_API_HERE";
     private NewsAdapter adapter;
     private List<Articles> articles = new ArrayList<>();
     private View rootView;
