@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="Fragments.WeatherForecastFragment"
+    android:background="@drawable/gradient_top_blue">
+
+    <LinearLayout
+        android:id="@+id/main_info"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<!--        <TextView-->
+<!--            android:textSize="24sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:text="5 DAYS WEATHER FORECAST"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_forecast"
+        android:layout_below="@id/main_info"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#122259</item>
+        <item name="colorPrimaryDark">#122259</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/color_app_bar_text</item>
+        <item name="tabSelectedTextColor">@color/color_app_bar_text</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/color_tab_text</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@drawable/gradient_bottom_blue</item>
+    </style>
+
+
+</resources>

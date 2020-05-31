@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f7f6f9</color>
+    <color name="colorPrimaryDark">#191819</color>
+    <color name="colorAccent">#191819</color>
+
+    <color name="grey">#A6EEEFEE</color>
+    <color name="res">#CE0700</color>
+    <color name="black">#191819</color>
+    <color name="white">#f7f6f9</color>
+    <color name="blue">#BF1874FF</color>
+
+    <color name="color_app_bar_text">#005689</color>
+
+    <color name="color_tab_text">#a7c0cd</color>
+</resources>
