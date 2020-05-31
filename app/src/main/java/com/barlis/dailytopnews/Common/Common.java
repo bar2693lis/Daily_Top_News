@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class Common
 {
-    public static final String APP_ID = "c443a666b8b8d6df03fa16587b2be790";
+    public static final String APP_ID = "YOUR_API_HERE";
 
     public static Location current_location = null;
 
